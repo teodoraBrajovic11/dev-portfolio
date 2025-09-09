@@ -1,0 +1,47 @@
+.parent {
+  width: 1000px;
+  height: 1000px;
+  background-color: aquamarine;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+
+  /***** flex position horizontal *****/
+  justify-content: space-between;
+
+  /***** flex position vertical *****/
+  align-items: flex-end;
+}
+
+.children {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(150, 46, 166);
+  color: white;
+  border: 5px solid white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* moves an element if there is not enough space to the bottom */
+  /* flex-wrap: wrap; */
+}
+
+/********* flex order *********/
+
+/* .child-1 {
+  order: 3;
+  flex-grow: 1;
+  align-self:flex-end;
+}
+
+.child-2 {
+  order: 1;
+  flex-grow: 5;
+}
+
+.child-3 {
+  order: 2;
+  flex-grow: 1;
+} */

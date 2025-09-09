@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Bag1",
+    "price": 10.99,
+    "imgUrl": "/imgs/bag1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bag2",
+    "price": 1199,
+    "imgUrl": "/imgs/bag2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bag3",
+    "price": 1.05,
+    "imgUrl": "/imgs/bag3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bag4",
+    "price": 14000,
+    "imgUrl": "/imgs/bag1.jpg"
+  }
+]

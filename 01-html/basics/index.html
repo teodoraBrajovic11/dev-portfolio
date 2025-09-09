@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web tutorial" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Grace Clark" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Example</title>
+  </head>
+  <body>
+    <!-- Captions -->
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <hr />
+
+    <!-- Text manipulation -->
+    <div>
+      <p title="This is a tooltip">
+        <span> Lorem ipsum dolor </span> sit <strong> amet </strong> consectetur
+        adipisicing elit. Modi consequatur officiis odit totam. Inventore, sit
+        id? Placeat rerum <em> ullam </em> qui quibusdam voluptates blanditiis
+        rem delectus, quam nesciunt doloremque asperiores earum aspernatur
+        numquam minus ducimus in sit velit a esse. Eveniet qui repellendus
+        cumque. Dolore cum <mark> voluptatibus </mark> harum possimus quaerat
+        cupiditate repellendus reprehenderit, incidunt porro labore iusto nobis,
+        natus veniam quo! Mollitia,<small> magni </small> fugit dolor id unde
+        error explicabo molestiae. Ducimus voluptatibus molestiae adipisci
+        temporibus, iusto tempore! Nemo <del> temporibus </del> autem
+        tenetur,<ins> vel </ins> nisi hic? Pariatur ea
+        <br />
+        <sup> qui </sup> doloremque nisi magni, ab consequatur itaque nemo
+        tempore <sub> quas </sub> molestias sequi, minus perspiciatis cum?
+      </p>
+    </div>
+    <hr />
+    <!-- Images and links -->
+    <a href="https://www.google.com" target="_blank">
+      <img src="../src/animal.jpg" alt="animal description" width="400" />
+    </a>
+    <hr />
+
+    <!-- Bookmarks -->
+    <a href="#bookmark">bookmark test</a>
+
+    <!-- Lists -->
+    <h1>Lists</h1>
+    <ul>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+      <li>List Item 5</li>
+    </ul>
+    <hr />
+    <ol tupe="1" start="25">
+      <li>List Item 1</li>
+      <ul>
+        <li>List Item 2</li>
+      </ul>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+      <li>List Item 5</li>
+    </ol>
+
+    <hr />
+    <!-- Tables -->
+    <h1>Tables</h1>
+    <table>
+      <caption>
+        This is a caption
+      </caption>
+      <thread>
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Age</th>
+        </tr>
+      </thread>
+      <tbody>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table>
+      <thread>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Telephone</th>
+        </tr>
+      </thread>
+      <tbody>
+        <tr>
+          <td>Jill</td>
+          <td>555-555-555</td>
+          <td>777-777-777</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table>
+      <tr>
+        <th>Name:</th>
+        <td>Jill Smith</td>
+      </tr>
+      <tr>
+        <th colspan="2">Telephone:</th>
+        <td>555-555-555</td>
+      </tr>
+      <tr>
+        <td>777-777-777</td>
+      </tr>
+    </table>
+
+    <hr />
+    <!-- Forms -->
+    <form action="server.php">
+      <fieldset>
+        <legend>Personal information:</legend>
+        First name: <br />
+        <input
+          type="text"
+          name="firstname"
+          value=""
+          placeholder="First name here"
+        /><br />
+        Last name: <br />
+        <input type="text" name="lastname" value="" /><br />
+        <input type="radio" name="options" /> Option 1
+        <input type="radio" name="options" /> Option 2<br />
+        <input type="checkbox" name="checkbox" checked /> Checkbox 1<br />
+        <input type="checkbox" name="checkbox" /> Checkbox 2<br />
+        <br />
+        <label for="carSelect">Select:</label>
+        <select name="cars" id="carSelect" multiple>
+          <option value="BMW" selected>BMW</option>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Audi">Audi</option>
+        </select>
+        <input type="submit" value="submit" />
+      </fieldset>
+    </form>
+    <p id="bookmark">this is a bookmark</p>
+  </body>
+</html>
